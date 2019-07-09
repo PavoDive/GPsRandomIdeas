@@ -1,0 +1,45 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Giovanni Pavolini's Random Ideas"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Acerca de mí"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/pavodive"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/gpavolini"
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/gpavolini"
+
+[params]
+    description = "Giovanni Pavolini + blogdown."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "profilePhoto.jpg"
+    width = 71
+    height = 94
+    alt = "Logo"
+
