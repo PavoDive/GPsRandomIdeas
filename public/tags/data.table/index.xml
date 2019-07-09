@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data.table on Giovanni Pavolini&#39;s Random Ideas</title>
+    <link>/tags/data.table/</link>
+    <description>Recent content in data.table on Giovanni Pavolini&#39;s Random Ideas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data.table/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analizando datos con data.table</title>
+      <link>/2019/07/09/analizando-datos-con-data-table/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/09/analizando-datos-con-data-table/</guid>
+      <description>R es un software muy útil para analizar datos. En R hay varios paquetes o librerías que se utilizan para sacarle aún más provecho a las muchas funcionalidades de R.
+Uno de esos paquetes es data.table. Éste brinda unas extensiones a la sintaxis natural de R y mucha velocidad y flexibilidad, especialmente en procesos en los que se requiere agrupar por variables y hacer análisis segmentados.
+Instalando data.table Para instalar data.</description>
+    </item>
+    
+  </channel>
+</rss>
