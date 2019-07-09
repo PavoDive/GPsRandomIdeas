@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Analizando datos con data.table</title>
+      <link>/2019/07/09/analizando-datos-con-data-table/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/09/analizando-datos-con-data-table/</guid>
+      <description>R es un software muy útil para analizar datos. En R hay varios paquetes o librerías que se utilizan para sacarle aún más provecho a las muchas funcionalidades de R.
+Uno de esos paquetes es data.table. Éste brinda unas extensiones a la sintaxis natural de R y mucha velocidad y flexibilidad, especialmente en procesos en los que se requiere agrupar por variables y hacer análisis segmentados.
+Instalando data.table Para instalar data.</description>
+    </item>
+    
+    <item>
       <title>Configurando un Sitio con blogdown, RStudio, github y netlify</title>
       <link>/2019/07/09/configurando-un-sitio-con-blogdown-rstudio-github-y-netlify/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
