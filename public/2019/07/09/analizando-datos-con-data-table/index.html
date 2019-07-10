@@ -89,8 +89,6 @@
 <h2>Cargando data.table</h2>
 <p>Una vez instalado el paquete, debemos cargarlo con el comando <code>library()</code>:</p>
 <pre class="r"><code>library(data.table)</code></pre>
-<p>Carguemos también <code>DT</code> para tener unas tablas bonitas:</p>
-<pre class="r"><code>library(DT)</code></pre>
 </div>
 <div id="leyendo-datos-con-data.table" class="section level2">
 <h2>Leyendo datos con data.table</h2>
@@ -237,16 +235,14 @@ DT[i, j, by = k]
 </ul>
 <p>Nada astronáutico, ¿o sí?</p>
 <p>Es posible aplicar varias funciones (o expresiones):</p>
-<pre class="r"><code>irisDT[, .(promedio = mean(Sepal.Length), mediana = median(Sepal.Length)), by = Species]</code></pre>
-<pre><code>##       Species promedio mediana
-## 1:     setosa    5.006     5.0
-## 2: versicolor    5.936     5.9
-## 3:  virginica    6.588     6.5</code></pre>
-<p>El <code>.()</code> que encierra las expresiones en <em>j</em> son un nombre alternativo para la función <code>list()</code> (ensaya cambiando el punto inicial por <code>list</code>), y sirven para que data.table nos devuelva un resultado de clase <code>data.table</code>.</p>
+<pre class="r"><code>irisDT[Species == &quot;versicolor&quot;, .(promedio = mean(Sepal.Length), mediana = median(Sepal.Length))]</code></pre>
+<pre><code>##    promedio mediana
+## 1:    5.936     5.9</code></pre>
+<p>El <code>.()</code> que encierra las expresiones en <em>j</em> es un nombre alternativo para la función <code>list()</code> (ensaya cambiando el punto inicial por <code>list</code>), y sirven para que data.table nos devuelva un resultado de clase <code>data.table</code>.</p>
 </div>
 <div id="expresiones" class="section level4">
 <h4>Expresiones</h4>
-<p>La <em>j</em> puede tomar no sólo funciones, sino también <strong>expresiones</strong>. Esto es útil en algunos contextos. Por ahora no mucho, así que voy a mostrar un par de ejemplos medio tontos de lo que esto significa. En algún blog posterior espero mostrar algo más relevante que se puede lograr con esto.</p>
+<p>La <em>j</em> puede tomar no sólo funciones, sino también <strong>expresiones</strong>. Esto es útil en algunos contextos, así que voy a mostrar un par de ejemplos medio tontos de lo que esto significa. En algún blog posterior espero mostrar algo más relevante que se puede lograr con esto.</p>
 <p>Primero, el más tonto de los dos ejemplos:</p>
 <pre class="r"><code>irisDT[Species == &quot;versicolor&quot;, format(1, scientific = TRUE)]</code></pre>
 <pre><code>## [1] &quot;1e+00&quot;</code></pre>

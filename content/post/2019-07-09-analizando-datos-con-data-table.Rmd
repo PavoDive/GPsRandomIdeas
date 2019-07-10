@@ -34,11 +34,6 @@ Una vez instalado el paquete, debemos cargarlo con el comando `library()`:
 library(data.table)
 ```
 
-Carguemos también `DT` para tener unas tablas bonitas:
-```{r loadDT}
-library(DT)
-```
-
 ## Leyendo datos con data.table
 
 Una de las mayores ventajas de data.table es la velocidad con la que carga datos en formatos planos. Si tienes un archivo .csv o .txt con muchos datos, te reto a que hagas la comparación de tiempo que toma la carga estándar (con `read.csv()`, por ejemplo) versus la función `fread` (fast read) de data.table
@@ -117,14 +112,14 @@ Nada astronáutico, ¿o sí?
 Es posible aplicar varias funciones (o expresiones):
 
 ```{r promedioMediana}
-irisDT[, .(promedio = mean(Sepal.Length), mediana = median(Sepal.Length)), by = Species]
+irisDT[Species == "versicolor", .(promedio = mean(Sepal.Length), mediana = median(Sepal.Length))]
 ```
 
-El `.()` que encierra las expresiones en _j_ son un nombre alternativo para la función `list()` (ensaya cambiando el punto inicial por `list`), y sirven para que data.table nos devuelva un resultado de clase `data.table`.
+El `.()` que encierra las expresiones en _j_ es un nombre alternativo para la función `list()` (ensaya cambiando el punto inicial por `list`), y sirven para que data.table nos devuelva un resultado de clase `data.table`.
 
 #### Expresiones
 
-La _j_ puede tomar no sólo funciones, sino también **expresiones**. Esto es útil en algunos contextos. Por ahora no mucho, así que voy a mostrar un par de ejemplos medio tontos de lo que esto significa. En algún blog posterior espero mostrar algo más relevante que se puede lograr con esto.
+La _j_ puede tomar no sólo funciones, sino también **expresiones**. Esto es útil en algunos contextos, así que voy a mostrar un par de ejemplos medio tontos de lo que esto significa. En algún blog posterior espero mostrar algo más relevante que se puede lograr con esto.
 
 Primero, el más tonto de los dos ejemplos:
 
