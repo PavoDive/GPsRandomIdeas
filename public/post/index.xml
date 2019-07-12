@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RStudio&#39;s rename in scope</title>
+      <link>/2019/07/12/rstudio-s-rename-in-scope/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/12/rstudio-s-rename-in-scope/</guid>
+      <description>Una de las funcionalidades que encuentro más prácticas de RStudio es la función Code &amp;gt;&amp;gt; Rename in Scope, salvajemente traducida (¡!) como &amp;ldquo;renombrar en alcance&amp;rdquo;.
+Esta función sirve para aquellos casos es los que se desea cambiar el nombre de una variable que está presente en varias líneas del código por un nombre nuevo (quizá como resultado de reusar el código). Aunque esto se puede lograr con un simple buscar / reemplazar (en algunos casos con regex), existe el riesgo de cambiar el nombre de otras variables (por ejemplo al actualizar dt a ventasMes terminar cambiando dt1 a ventasMes1).</description>
+    </item>
     
     <item>
       <title>Alguien tiene que hacerse cargo de lo técnico</title>
