@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.55.6" />
 
 
-<title>RStudio&#39;s rename in scope - Giovanni Pavolini&#39;s Random Ideas</title>
-<meta property="og:title" content="RStudio&#39;s rename in scope - Giovanni Pavolini&#39;s Random Ideas">
+<title>data.table&#39;s `cube` function - Giovanni Pavolini&#39;s Random Ideas</title>
+<meta property="og:title" content="data.table&#39;s `cube` function - Giovanni Pavolini&#39;s Random Ideas">
 
 
   <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -66,20 +66,26 @@
     <span class="article-duration">1 min read</span>
     
 
-    <h1 class="article-title">RStudio&#39;s rename in scope</h1>
+    <h1 class="article-title">data.table&#39;s `cube` function</h1>
 
     
-    <span class="article-date">2019-07-12</span>
+    <span class="article-date">2019-07-19</span>
     
 
     <div class="article-content">
-      <p>Una de las funcionalidades que encuentro más prácticas de RStudio es la función <code>Code &gt;&gt; Rename in Scope</code>, salvajemente traducida (¡!) como &ldquo;renombrar en alcance&rdquo;.</p>
+      
 
-<p>Esta función sirve para aquellos casos es los que se desea cambiar el nombre de una variable que está presente en varias líneas del código por un nombre nuevo (quizá como resultado de reusar el código). Aunque esto se puede lograr con un simple buscar / reemplazar (en algunos casos con regex), existe el riesgo de cambiar el nombre de otras variables (por ejemplo al actualizar <code>dt</code> a <code>ventasMes</code> terminar cambiando <code>dt1</code> a <code>ventasMes1</code>).</p>
 
-<p>La funcionalidad es bastante simple de utilizar, sólo mirá el gif a continuación (tomado de <a href="https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/">aquí</a>).</p>
-
-<p><img src="/post/2019-07-12-rstudio-s-rename-in-scope_files/tip_rename_in_scope.gif" alt="Rename in Scope" /></p>
+<p>Recently I learned there’s a <code>cube</code> function in <code>data.table</code>, thanks to Dan Wilson:</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Just came across data.table::cube() which aggregates and includes a total. I don’t know how I’ve never known about this function before <a href="https://twitter.com/hashtag/datatable?src=hash&amp;ref_src=twsrc%5Etfw">#datatable</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a><br>e.g. <br>cube(mtcars,<br> .(mean_disp = mean(disp)),<br> by = c(“cyl”))
+</p>
+— Dan Wilson (<span class="citation">@danwwilson</span>) <a href="https://twitter.com/danwwilson/status/1151816144522579968?ref_src=twsrc%5Etfw">July 18, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Perhaps I should allocate a time to just do <code>[packageName]::</code> and keep hitting TAB in RStudio to learn about the many nice functions the packages I use often have, and I don’t know.</p>
+<p>Although Dan’s example with the famous <code>mtcars</code> is pretty self explanatory, I wanted to know the function in detail, so this is about that journey.</p>
 
     </div>
   </article>

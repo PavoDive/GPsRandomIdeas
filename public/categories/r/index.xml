@@ -21,39 +21,5 @@
 Esta función sirve para aquellos casos es los que se desea cambiar el nombre de una variable que está presente en varias líneas del código por un nombre nuevo (quizá como resultado de reusar el código). Aunque esto se puede lograr con un simple buscar / reemplazar (en algunos casos con regex), existe el riesgo de cambiar el nombre de otras variables (por ejemplo al actualizar dt a ventasMes terminar cambiando dt1 a ventasMes1).</description>
     </item>
     
-    <item>
-      <title>Wiki data.table en español</title>
-      <link>/2019/07/10/wiki-data-table-en-espa%C3%B1ol/</link>
-      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/10/wiki-data-table-en-espa%C3%B1ol/</guid>
-      <description>Versión libre al español, adaptada de https://github.com/Rdatatable/data.table/wiki en 2019-07-10
-      
-
- Lin/Mac:  Win:  Extra:  Últimas noticias de dev: Noticias Nuevas presentaciones en 2019: click Eventos en el menú lateral.   data.table es uno de los 13,000 paquetes de extensión para el lenguage de programación R que es muy popular en estos campos. Provee una versión de alto desempeño del data.</description>
-    </item>
-    
-    <item>
-      <title>Analizando datos con data.table</title>
-      <link>/2019/07/09/analizando-datos-con-data-table/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/09/analizando-datos-con-data-table/</guid>
-      <description>R es un software muy útil para analizar datos. En R hay varios paquetes o librerías que se utilizan para sacarle aún más provecho a las muchas funcionalidades de R.
-Uno de esos paquetes es data.table. Éste brinda unas extensiones a la sintaxis natural de R y mucha velocidad y flexibilidad, especialmente en procesos en los que se requiere agrupar por variables y hacer análisis segmentados.
-Instalando data.table Para instalar data.</description>
-    </item>
-    
-    <item>
-      <title>Configurando un Sitio con blogdown, RStudio, github y netlify</title>
-      <link>/2019/07/09/configurando-un-sitio-con-blogdown-rstudio-github-y-netlify/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/09/configurando-un-sitio-con-blogdown-rstudio-github-y-netlify/</guid>
-      <description>Tener un sitio web es una experiencia interesante. El paquete blogdown lo hace mucho más fácil, especialmente para quienes comparten en sus blogs información sobre análisis de datos, sobre programación o sobre cualquier ciencia que requiera uso de código o de fórmulas matemáticas.
-Esta entrada (¡nuesta primera entrada!) te muestra como configurar tu sitio web utilizando las herramientas de R, RStudio, blogdown, github y netlify.
-Descargá lo que necesitás Para poder hacer esto vas a necesitar:</description>
-    </item>
-    
   </channel>
 </rss>

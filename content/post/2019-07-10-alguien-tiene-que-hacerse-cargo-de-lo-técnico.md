@@ -4,10 +4,9 @@ author: Giovanni Pavolini
 date: '2019-07-10'
 slug: alguien-tiene-que-hacerse-cargo-de-lo-técnico
 categories:
-  - Productividad
+  - Spanish
 tags:
   - productividad
-  - español
   - gerencia
 ---
 

@@ -4,10 +4,8 @@ author: Giovanni Pavolini
 date: '2019-07-09'
 slug: analizando-datos-con-data-table
 categories:
-  - R
-  - data.table
+  - Spanish
 tags:
-  - español
   - data.table
   - R
 ---

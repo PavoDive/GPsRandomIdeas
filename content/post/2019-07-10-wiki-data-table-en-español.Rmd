@@ -4,10 +4,8 @@ author: Giovanni Pavolini
 date: '2019-07-10'
 slug: wiki-data-table-en-español
 categories:
-  - R
-  - data.table
+  - Spanish
 tags:
-  - español
   - data.table
   - R
 ---

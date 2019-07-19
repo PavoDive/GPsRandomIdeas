@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Giovanni Pavolini&#39;s Random Ideas</title>
-    <link>/</link>
-    <description>Recent content on Giovanni Pavolini&#39;s Random Ideas</description>
+    <title>Spanish on Giovanni Pavolini&#39;s Random Ideas</title>
+    <link>/categories/spanish/</link>
+    <description>Recent content in Spanish on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/spanish/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>data.table&#39;s `cube` function</title>
-      <link>/2019/07/19/data-table-s-cube-function/</link>
-      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/19/data-table-s-cube-function/</guid>
-      <description>Recently I learned there’s a cube function in data.table, thanks to Dan Wilson:
-Just came across data.table::cube() which aggregates and includes a total. I don’t know how I’ve never known about this function before #datatable #rstats
-e.g. cube(mtcars,
-.(mean_disp = mean(disp)),
-by = c(“cyl”)) — Dan Wilson (@danwwilson) July 18, 2019   Perhaps I should allocate a time to just do [packageName]:: and keep hitting TAB in RStudio to learn about the many nice functions the packages I use often have, and I don’t know.</description>
-    </item>
     
     <item>
       <title>RStudio&#39;s rename in scope</title>
@@ -76,17 +63,6 @@ Instalando data.table Para instalar data.</description>
       <description>Tener un sitio web es una experiencia interesante. El paquete blogdown lo hace mucho más fácil, especialmente para quienes comparten en sus blogs información sobre análisis de datos, sobre programación o sobre cualquier ciencia que requiera uso de código o de fórmulas matemáticas.
 Esta entrada (¡nuesta primera entrada!) te muestra como configurar tu sitio web utilizando las herramientas de R, RStudio, blogdown, github y netlify.
 Descargá lo que necesitás Para poder hacer esto vas a necesitar:</description>
-    </item>
-    
-    <item>
-      <title>Sobre mí</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Giovanni Pavolini, vivo en Colombia, donde trabajo como consultor empresarial sobre temas de productividad y análisis de información.
-Soy Ingeniero Mecánico de la Universidad del Valle y realicé estudios de doctrado en la Universidad Nacional de Yokohama, Japón.
-Trabajo análisis de datos en R, y oriento la productividad de las empresas bajo diferentes metodologías.</description>
     </item>
     
   </channel>

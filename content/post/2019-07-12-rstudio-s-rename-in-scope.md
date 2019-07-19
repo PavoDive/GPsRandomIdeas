@@ -4,7 +4,7 @@ author: Giovanni Pavolini
 date: '2019-07-12'
 slug: rstudio-s-rename-in-scope
 categories:
-  - R
+  - Spanish
 tags:
   - R
 ---
