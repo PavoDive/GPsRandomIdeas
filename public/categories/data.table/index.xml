@@ -23,16 +23,5 @@
  Lin/Mac:  Win:  Extra:  Últimas noticias de dev: Noticias Nuevas presentaciones en 2019: click Eventos en el menú lateral.   data.table es uno de los 13,000 paquetes de extensión para el lenguage de programación R que es muy popular en estos campos. Provee una versión de alto desempeño del data.</description>
     </item>
     
-    <item>
-      <title>Analizando datos con data.table</title>
-      <link>/2019/07/09/analizando-datos-con-data-table/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/09/analizando-datos-con-data-table/</guid>
-      <description>R es un software muy útil para analizar datos. En R hay varios paquetes o librerías que se utilizan para sacarle aún más provecho a las muchas funcionalidades de R.
-Uno de esos paquetes es data.table. Éste brinda unas extensiones a la sintaxis natural de R y mucha velocidad y flexibilidad, especialmente en procesos en los que se requiere agrupar por variables y hacer análisis segmentados.
-Instalando data.table Para instalar data.</description>
-    </item>
-    
   </channel>
 </rss>
