@@ -117,14 +117,15 @@ Just came across data.table::cube() which aggregates and includes a total. I don
 dt &lt;- data.table(iris)</code></pre>
 <pre class="r"><code># a timid test
 cube(dt, j = mean(Sepal.Length), by = Species, id = FALSE)</code></pre>
-<p><code>Error in cube.data.table(dt, j = mean(Sepal.Length), by = Species, id = FALSE) :    object 'Species' not found</code></p>
+<p><code># Error in cube.data.table(dt, j = mean(Sepal.Length), by = Species, id = FALSE) :</code>
+<code>#  object 'Species' not found</code></p>
 <pre class="r"><code>cube(dt, j = mean(Sepal.Length), by = &quot;Species&quot;, id = FALSE)</code></pre>
 <pre><code>##       Species       V1
 ## 1:     setosa 5.006000
 ## 2: versicolor 5.936000
 ## 3:  virginica 6.588000
 ## 4:       &lt;NA&gt; 5.843333</code></pre>
-<p>First thing I notice is I needed to quote <code>Species</code>, second thing I noticed is I had to read the documentation <em>carefully</em>, as it states clearly <em>character column names by which we are grouping.</em></p>
+<p>First thing I notice is I needed to quote <code>Species</code>, second thing I noticed is I had to read the documentation <em>carefully</em>, as it states clearly <em><strong>character</strong> column names by which we are grouping.</em></p>
 <p>Then I noticed that the output produced a value for a <code>NA</code> Species… but the data is solid, there aren’t <code>NA</code>s in the Species column… So what is it?</p>
 <p>It is the <em>overall</em> mean (for mean we asked in <code>j</code>) of the dataset’s Sepal.Length:</p>
 <pre class="r"><code>cube(dt, j = mean(Sepal.Length), by = &quot;Species&quot;, id = TRUE)</code></pre>
