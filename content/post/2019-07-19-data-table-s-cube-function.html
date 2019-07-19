@@ -89,3 +89,21 @@ cube(dt2, j = .(mean(N), sum(N)), by = c(&quot;Sex&quot;, &quot;Class&quot;))</c
 ## 14:   &lt;NA&gt;  Crew 110.62500  885
 ## 15:   &lt;NA&gt;  &lt;NA&gt;  68.78125 2201</code></pre>
 </div>
+<div id="bottom-line" class="section level2">
+<h2>Bottom line</h2>
+<p>Use <code>cube</code> if you want to evaluate an expression by <strong>both</strong> a group of variables and the ungrupped expression. In that regard is equivalent to:</p>
+<pre class="r"><code>cube(dt, mean(Sepal.Length), &quot;Species&quot;)</code></pre>
+<pre><code>##       Species       V1
+## 1:     setosa 5.006000
+## 2: versicolor 5.936000
+## 3:  virginica 6.588000
+## 4:       &lt;NA&gt; 5.843333</code></pre>
+<pre class="r"><code>rbind(dt[, mean(Sepal.Length), by = Species], 
+      dt[, .(V1 = mean(Sepal.Length))], 
+      fill = TRUE)</code></pre>
+<pre><code>##       Species       V1
+## 1:     setosa 5.006000
+## 2: versicolor 5.936000
+## 3:  virginica 6.588000
+## 4:       &lt;NA&gt; 5.843333</code></pre>
+</div>

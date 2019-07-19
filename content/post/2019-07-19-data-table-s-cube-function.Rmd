@@ -92,6 +92,7 @@ cube(dt2, j = .(mean(N), sum(N)), by = c("Sex", "Class"))
 ```
 
 ## Bottom line
+
 Use `cube` if you want to evaluate an expression by **both** a group of variables and the ungrupped expression. In that regard is equivalent to:
 
 ```{r}
