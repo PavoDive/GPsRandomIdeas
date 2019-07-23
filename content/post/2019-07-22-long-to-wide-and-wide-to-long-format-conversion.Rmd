@@ -11,7 +11,7 @@ tags:
   - ggplot
 ---
 
-[¡Mirá una versión en español aquí!](/2019/07/22/conversión-de-formato-ancho-largo-y-viceversa)
+[¡Mirá una versión en español aquí!](/2019/07/21/conversión-de-formato-ancho-largo-y-viceversa)
 
 One of the difficulties I find most often in Stack Overflow questions about R, an in general about data science, is the erroneous usage of wide formats for data analysis.
 
