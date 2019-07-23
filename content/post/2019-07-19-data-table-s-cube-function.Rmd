@@ -60,6 +60,7 @@ cube(dt, j = mean(Sepal.Length), by = Species, id = FALSE)
 ```
 
 `       # Error in cube.data.table(dt, j = mean(Sepal.Length), by = Species, id = FALSE) :` 
+
 `       #  object 'Species' not found`
 
 ```{r}

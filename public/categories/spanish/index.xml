@@ -6,10 +6,22 @@
     <description>Recent content in Spanish on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/spanish/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conversión de formato Ancho a Largo y viceversa</title>
+      <link>/2019/07/21/conversi%C3%B3n-de-formato-ancho-largo-y-viceversa/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/21/conversi%C3%B3n-de-formato-ancho-largo-y-viceversa/</guid>
+      <description>See an English version here!
+Uno de las dificultades que con frecuencia encuentro en preguntas en Stack Overflow sobre R, y en general sobre ciencia de datos es la errónea utilización de formatos anchos de datos para análisis de datos.
+En este post veremos algunas funciones del paquete data.table en R para convertir de formato ancho a largo y viceversa.
+Diferentes Formas de Almacenar los Mismos Datos Hay dos posibles formas de almacenar información tabulada: en formato “ancho” y en formato “largo”.</description>
+    </item>
     
     <item>
       <title>RStudio&#39;s rename in scope</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>English on Giovanni Pavolini&#39;s Random Ideas</title>
-    <link>/categories/english/</link>
-    <description>Recent content in English on Giovanni Pavolini&#39;s Random Ideas</description>
+    <title>ggplot on Giovanni Pavolini&#39;s Random Ideas</title>
+    <link>/tags/ggplot/</link>
+    <description>Recent content in ggplot on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,16 +24,15 @@ Different Ways to Store the Same Data There are two possible ways of storing tab
     </item>
     
     <item>
-      <title>data.table&#39;s `cube` function</title>
-      <link>/2019/07/19/data-table-s-cube-function/</link>
-      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      <title>Conversión de formato Ancho a Largo y viceversa</title>
+      <link>/2019/07/21/conversi%C3%B3n-de-formato-ancho-largo-y-viceversa/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/19/data-table-s-cube-function/</guid>
-      <description>Recently I learned there’s a cube function in data.table, thanks to Dan Wilson:
-Just came across data.table::cube() which aggregates and includes a total. I don’t know how I’ve never known about this function before #datatable #rstats
-e.g. cube(mtcars,
-.(mean_disp = mean(disp)),
-by = c(“cyl”)) — Dan Wilson (@danwwilson) July 18, 2019   Perhaps I should allocate a time to just do [packageName]:: and keep hitting TAB in RStudio to learn about the many nice functions the packages I use often have, and I don’t know.</description>
+      <guid>/2019/07/21/conversi%C3%B3n-de-formato-ancho-largo-y-viceversa/</guid>
+      <description>See an English version here!
+Uno de las dificultades que con frecuencia encuentro en preguntas en Stack Overflow sobre R, y en general sobre ciencia de datos es la errónea utilización de formatos anchos de datos para análisis de datos.
+En este post veremos algunas funciones del paquete data.table en R para convertir de formato ancho a largo y viceversa.
+Diferentes Formas de Almacenar los Mismos Datos Hay dos posibles formas de almacenar información tabulada: en formato “ancho” y en formato “largo”.</description>
     </item>
     
   </channel>

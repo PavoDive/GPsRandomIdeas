@@ -48,8 +48,8 @@ Just came across data.table::cube() which aggregates and includes a total. I don
 dt &lt;- data.table(iris)</code></pre>
 <pre class="r"><code># a timid test
 cube(dt, j = mean(Sepal.Length), by = Species, id = FALSE)</code></pre>
-<p><code># Error in cube.data.table(dt, j = mean(Sepal.Length), by = Species, id = FALSE) :</code>
-<code>#  object 'Species' not found</code></p>
+<p><code># Error in cube.data.table(dt, j = mean(Sepal.Length), by = Species, id = FALSE) :</code></p>
+<p><code>#  object 'Species' not found</code></p>
 <pre class="r"><code>cube(dt, j = mean(Sepal.Length), by = &quot;Species&quot;, id = FALSE)</code></pre>
 <pre><code>##       Species       V1
 ## 1:     setosa 5.006000
