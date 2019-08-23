@@ -6,10 +6,22 @@
     <description>Recent content in Spanish on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/spanish/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calculando Inventarios de Seguridad y puntos de reorden con R y data.table</title>
+      <link>/2019/08/09/calculando-inventarios-seguridad-punto-reorden-r/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/08/09/calculando-inventarios-seguridad-punto-reorden-r/</guid>
+      <description>En este post quiero mostrarles una forma de analizar sus datos de ventas y de estimar los inventarios de seguridad adecuados para esas referencias, así como el punto de reorden óptimo para ellas.
+ El nivel de inventario refleja la capacidad o incapacidad de los administradores de controlar el sistema.
+Edgar Jaramillo.
+ Es común en las empresas calcular los inventarios en días de venta. Esto ocurre, en la mayoría de las ocasiones, como una acción reactiva, es decir, las coberturas de inventario son accidentes que ocurren y no decisiones planeadas.</description>
+    </item>
     
     <item>
       <title>Estimando Errores de Pronóstico</title>
