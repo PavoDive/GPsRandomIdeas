@@ -6,10 +6,20 @@
     <description>Recent content in data.table on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data.table/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calculando comisión de ventas - non-equi Joins</title>
+      <link>/2019/09/10/calculando-comisi%C3%B3n-de-ventas-non-equi-joins/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/09/10/calculando-comisi%C3%B3n-de-ventas-non-equi-joins/</guid>
+      <description>Con frecuencia encontramos el problema de enlazar dos tablas no por valores iguales (lo que haríamos en Excel con un “BUSCARV” o “VLOOKUP”), sino identificando cuando un valor en una de las tablas cae en un rango de valores en la otra tabla. A este tipo de enlace entre tablas (join) se le llama non-equi joins, o uniones de desigualdad.
+Analizando un caso práctico El problema Imaginemos que hay un grupo de vendedores que en el mes pasado tuvieron una venta, en millones, representada en la siguiente tabla:</description>
+    </item>
     
     <item>
       <title>Calculando Inventarios de Seguridad y puntos de reorden con R y data.table</title>
