@@ -6,10 +6,19 @@
     <description>Recent content in gerencia on Giovanni Pavolini&#39;s Random Ideas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/gerencia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estructura de Gobierno</title>
+      <link>/2019/11/12/estructura-de-gobierno/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/12/estructura-de-gobierno/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Estimando Errores de Pronóstico</title>
